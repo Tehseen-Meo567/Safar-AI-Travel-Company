@@ -306,7 +306,7 @@ def generate_ai_explanation(
     hotel: dict,
     travelers: int,
     per_city_budget: float,
-    model: str = "groq/compound-mini",
+    model: str = "openai/gpt-oss-20b",
 ) -> str:
     """
     Return a one-sentence, human-friendly explanation of why this hotel is
