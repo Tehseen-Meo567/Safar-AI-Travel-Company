@@ -306,7 +306,7 @@ def generate_ai_explanation(
     hotel: dict,
     travelers: int,
     per_city_budget: float,
-    model: str = "llama-3.3-70b-versatile",
+    model: str = "groq/compound-mini",
 ) -> str:
     """
     Return a one-sentence, human-friendly explanation of why this hotel is
