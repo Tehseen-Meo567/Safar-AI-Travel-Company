@@ -198,7 +198,7 @@ RETRIEVED KNOWLEDGE:
 
     try:
         response = client.chat.completions.create(
-            model=st.secrets.get("GROQ_MODEL", "llama-3.1-8b-instant"),
+            model=st.secrets.get("GROQ_MODEL", "openai/gpt-oss-20b"),
             messages=messages,
             temperature=0.2,
             max_tokens=700,
